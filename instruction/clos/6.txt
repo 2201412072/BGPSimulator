@@ -1,0 +1,25 @@
+topo/clos/graph_clos_6.json
+c hierarchy 6
+c a color
+c printf_op 0
+c print 0
+muti
+net 0 a 10.0.0.0/24
+net 1 a 10.0.1.0/24
+net 2 a 10.0.2.0/24
+net 3 a 10.0.3.0/24
+net 4 a 10.0.4.0/24
+net 5 a 10.0.5.0/24
+net 6 a 10.0.6.0/24
+net 7 a 10.0.7.0/24
+net 8 a 10.0.8.0/24
+net 9 a 10.0.9.0/24
+net 10 a 10.0.10.0/24
+net 11 a 10.0.11.0/24
+net 12 a 10.0.12.0/24
+net 13 a 10.0.13.0/24
+net 14 a 10.0.14.0/24
+net 15 a 10.0.15.0/24
+net 16 a 10.0.16.0/24
+net 17 a 10.0.17.0/24
+/muti

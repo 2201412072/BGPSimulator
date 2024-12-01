@@ -1,0 +1,35 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {"id": "AS65000", "AS": 65000},
+    {"id": "AS65001", "AS": 65001},
+    {"id": "AS65002", "AS": 65002},
+    {"id": "AS65003", "AS": 65003},
+    {"id": "AS65004-1", "AS": 65004},
+    {"id": "AS65004-2", "AS": 65004},
+    {"id": "AS65005-1", "AS": 65005},
+    {"id": "AS65005-2", "AS": 65005},
+    {"id": "AS65006-1", "AS": 65006},
+    {"id": "AS65006-2", "AS": 65006}
+  ],
+  "links": [
+    {"source": "AS65000", "target": "AS65004-1"},
+    {"source": "AS65000", "target": "AS65004-2"},
+    {"source": "AS65001", "target": "AS65004-1"},
+    {"source": "AS65001", "target": "AS65004-2"},
+    {"source": "AS65002", "target": "AS65005-1"},
+    {"source": "AS65002", "target": "AS65005-2"},
+    {"source": "AS65003", "target": "AS65005-1"},
+    {"source": "AS65003", "target": "AS65005-2"},
+    {"source": "AS65004-1", "target": "AS65006-1"},
+    {"source": "AS65004-1", "target": "AS65006-2"},
+    {"source": "AS65004-2", "target": "AS65006-1"},
+    {"source": "AS65004-2", "target": "AS65006-2"},
+    {"source": "AS65005-1", "target": "AS65006-1"},
+    {"source": "AS65005-1", "target": "AS65006-2"},
+    {"source": "AS65005-2", "target": "AS65006-1"},
+    {"source": "AS65005-2", "target": "AS65006-2"}
+  ]
+}
